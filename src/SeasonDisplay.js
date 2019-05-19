@@ -46,7 +46,7 @@ const getSeasonData = (lat, month) => {
 };
 
 const SeasonDisplay = props => {
-  const season = getSeasonData(props.lat, 9);
+  const season = getSeasonData(props.lat, new Date().getMonth());
 
   return (
     <div className="season-display">

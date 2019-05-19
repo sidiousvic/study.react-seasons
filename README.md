@@ -1,6 +1,8 @@
 ## Seasons / Kisetsu
 
-A web app that tells you which season it is. 🌸 🌳 🍁 ❄️
+A web app that tells you which season it is.
+
+🌸 🌳 🍁 ❄️
 
 To test a different season, change your location in Chrome Devtools > Sensors.
 
