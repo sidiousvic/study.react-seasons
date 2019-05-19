@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d582ef17c410f6bfcf94a6f5568696e",
+    "revision": "840e8a4123999d372dddb450c25e2c1a",
     "url": "/seasons-kisetsu/index.html"
   },
   {
-    "revision": "f87c0fd86b0533c52028",
-    "url": "/seasons-kisetsu/static/css/main.0739f0db.chunk.css"
+    "revision": "8e50275c5084cc46006c",
+    "url": "/seasons-kisetsu/static/css/main.a65d85b4.chunk.css"
   },
   {
     "revision": "00326bae65bf152b5d9a",
     "url": "/seasons-kisetsu/static/js/2.2514f1ab.chunk.js"
   },
   {
-    "revision": "f87c0fd86b0533c52028",
+    "revision": "8e50275c5084cc46006c",
     "url": "/seasons-kisetsu/static/js/main.d24209ca.chunk.js"
   },
   {
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3549beaae0ba185e62d53e57144caa0d",
     "url": "/seasons-kisetsu/static/media/fall.3549beaa.gif"
+  },
+  {
+    "revision": "4030c1eabdf5e8a8da85c71fff7da56f",
+    "url": "/seasons-kisetsu/static/media/mamemoji.4030c1ea.ttf"
   },
   {
     "revision": "c40db678aa354ba91257f6258a1521e1",
