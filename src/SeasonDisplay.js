@@ -48,7 +48,7 @@ const SeasonDisplay = props => {
     <div className="season-display">
       <h1>
         It's {season.season}, {season.text}
-        <span className="blinkellipsis">...</span>
+        <span className="blink-ellipsis">...</span>
       </h1>
       <img alt="season" src={season.image} />
     </div>

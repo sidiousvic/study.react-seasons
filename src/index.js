@@ -24,7 +24,13 @@ class App extends React.Component {
 
   render() {
     if (!this.state.errMessage && !this.state.lat) {
-      return <div>LOADING...</div>;
+      return (
+        <div className="season-display">
+          <h1>
+            LOADING<span className="blink-ellipsis">...</span>
+          </h1>
+        </div>
+      );
     } else if (!this.state.err && this.state.lat) {
       return <SeasonDisplay lat={this.state.lat} />;
     } else if (this.state.errMessage) {
