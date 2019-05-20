@@ -1,5 +1,23 @@
-html,
-body {
+body,
+html {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "mamemoji";
+  src: local("mamemoji"), url(mamemoji.ttf) format("truetype");
+}
+
+.season-display {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.loading {
+  color: rgb(255, 221, 227);
 }
 
 img {
@@ -12,16 +30,18 @@ h1 {
   color: whitesmoke;
   mix-blend-mode: color-dodge;
   font-family: mamemoji, serif;
-  font-size: 9vh;
+  font-size: 9vmin;
   font-style: italic;
   font-weight: normal;
   position: absolute;
   text-align: center;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+  /* TYPING ANIMATION */
+  overflow: hidden;
   /* border-right: 0.4em solid white; */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.1em; /* Adjust as needed */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
   animation: typing 3.5s steps(40, end);
 }
 
@@ -30,7 +50,7 @@ h1 {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 }
 
-/* The typing effect */
+/* THE TYPING EFFECT*/
 @keyframes typing {
   from {
     width: 0;
@@ -40,7 +60,7 @@ h1 {
   }
 }
 
-/* The typewriter cursor effect */
+/* THE BLINKING ELLIPSIS EFFECT */
 @keyframes blink-caret {
   0% {
     color: transparent;
@@ -50,10 +70,13 @@ h1 {
   }
 }
 
-.season-display {
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  width: 100vw;
+@media screen and (orientation: portrait) {
+  h1 {
+    white-space: normal;
+    animation: none;
+  }
+
+  img {
+    height: auto;
+  }
 }

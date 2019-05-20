@@ -6,7 +6,7 @@ import fallimg from "./seasonImages/fall.gif";
 import winterimg from "./seasonImages/winter.gif";
 
 const getSeasonData = (lat, month) => {
-  console.log(month);
+  console.log("Month: ", month);
   const season = {};
   if (month === 3 || month === 4 || month === 5) {
     lat > 0
@@ -41,7 +41,7 @@ const getSeasonData = (lat, month) => {
         (season.image = winterimg) &&
         (season.season = "winter");
   }
-  console.log(season);
+  console.log(season.season);
   return season;
 };
 

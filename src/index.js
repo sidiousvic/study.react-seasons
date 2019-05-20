@@ -3,12 +3,6 @@ import ReactDOM from "react-dom";
 import SeasonDisplay from "./SeasonDisplay";
 
 class App extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = { lat: null, errMessage: "" };
-  //   console.log(this.state);
-  // }
-
   state = { lat: null, errMessage: "" };
 
   componentDidMount() {
@@ -26,7 +20,7 @@ class App extends React.Component {
     if (!this.state.errMessage && !this.state.lat) {
       return (
         <div className="season-display">
-          <h1>
+          <h1 className="loading">
             LOADING<span className="blink-ellipsis">...</span>
           </h1>
         </div>
