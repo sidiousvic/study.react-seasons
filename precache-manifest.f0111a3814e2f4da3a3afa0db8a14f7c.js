@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f54e236a3cd93c716b68320409a1c02c",
+    "revision": "8e5b2cb8f07c0c7c9c3430a37d411a22",
     "url": "/seasons-kisetsu/index.html"
   },
   {
-    "revision": "1278d5470cc4f2328714",
+    "revision": "17d89d853e37ad17e4c5",
     "url": "/seasons-kisetsu/static/css/main.59619282.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/seasons-kisetsu/static/js/2.2514f1ab.chunk.js"
   },
   {
-    "revision": "1278d5470cc4f2328714",
-    "url": "/seasons-kisetsu/static/js/main.9dfa0b61.chunk.js"
+    "revision": "17d89d853e37ad17e4c5",
+    "url": "/seasons-kisetsu/static/js/main.acb6a64b.chunk.js"
   },
   {
     "revision": "65d8adec05826ffb8852",
