@@ -1,0 +1,34 @@
+.buttons {
+  position: absolute;
+  width: 30vw;
+  display: flex;
+  bottom: 3vmax;
+  left: 3vmax;
+}
+
+.content {
+  mix-blend-mode: overlay;
+  font-family: mamemoji;
+  color: whitesmoke;
+}
+
+.button {
+  mix-blend-mode: none;
+  width: 3vw;
+  background-color: transparent !important;
+  border-radius: 50%;
+}
+
+/* .icon {
+  mix-blend-mode: color-dodge;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 1.5vw !important;
+  background-color: transparent;
+  border: 1px whitesmoke;
+}
+
+.icon:hover {
+  color: white;
+  cursor: pointer;
+} */
