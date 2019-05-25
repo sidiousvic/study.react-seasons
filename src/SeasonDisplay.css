@@ -8,16 +8,16 @@ html {
   src: local("mamemoji"), url(mamemoji.ttf) format("truetype");
 }
 
+.loading {
+  color: rgb(255, 221, 227);
+}
+
 .season-display {
   align-items: center;
   display: flex;
   height: 100vh;
   justify-content: center;
   width: 100vw;
-}
-
-.loading {
-  color: rgb(255, 221, 227);
 }
 
 img {
@@ -35,22 +35,21 @@ h1 {
   font-weight: normal;
   position: absolute;
   text-align: center;
-
   /* TYPING ANIMATION */
   overflow: hidden;
-  /* border-right: 0.4em solid white; */
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.1em;
   animation: typing 3.5s steps(40, end);
+  /* TYPING ANIMATION */
 }
 
 .blink-ellipsis {
-  animation: blink-caret 1s step-end infinite;
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: blink 1s step-end infinite;
+  margin: 0 auto;
 }
 
-/* THE TYPING EFFECT*/
+/* ANIMATIONS */
 @keyframes typing {
   from {
     width: 0;
@@ -60,8 +59,7 @@ h1 {
   }
 }
 
-/* THE BLINKING ELLIPSIS EFFECT */
-@keyframes blink-caret {
+@keyframes blink {
   0% {
     color: transparent;
   }
@@ -70,6 +68,7 @@ h1 {
   }
 }
 
+/* MEDIA QUERIES */
 @media screen and (orientation: portrait) {
   h1 {
     white-space: normal;

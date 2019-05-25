@@ -18,10 +18,6 @@ class App extends React.Component {
     );
   }
 
-  //   componentDidUpdate() {
-  //     console.log("Component did update");
-  //   }
-
   render() {
     if (!this.state.errMessage && !this.state.lat) {
       return (
@@ -46,7 +42,7 @@ class App extends React.Component {
               tabIndex="0"
             >
               <div className="visible content">
-                <i class="umbrella icon" />
+                <i className="umbrella icon" />
               </div>
             </div>
             <div
@@ -55,7 +51,7 @@ class App extends React.Component {
               tabIndex="0"
             >
               <div className="visible content">
-                <i class="sun icon" />
+                <i className="sun icon" />
               </div>
             </div>
             <div
@@ -64,7 +60,7 @@ class App extends React.Component {
               tabIndex="0"
             >
               <div className="visible content">
-                <i class="leaf icon" />
+                <i className="leaf icon" />
               </div>
             </div>
             <div
@@ -73,7 +69,7 @@ class App extends React.Component {
               tabIndex="0"
             >
               <div className="visible content">
-                <i class="snowflake icon" />
+                <i className="snowflake icon" />
               </div>
             </div>
           </div>
