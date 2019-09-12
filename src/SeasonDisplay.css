@@ -4,8 +4,8 @@ html {
 }
 
 @font-face {
-  font-family: "mamemoji";
-  src: local("mamemoji"), url(mamemoji.ttf) format("truetype");
+  font-family: 'mamemoji';
+  src: local('mamemoji'), url(mamemoji.ttf) format('truetype');
 }
 
 .loading {

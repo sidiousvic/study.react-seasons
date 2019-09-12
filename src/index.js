@@ -1,14 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import SeasonDisplay from "./SeasonDisplay";
-import "./index.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import SeasonDisplay from './SeasonDisplay';
+import './index.css';
 
 class App extends React.Component {
   state = {
     lat: null,
     month: new Date().getMonth(),
     season: null,
-    errMessage: ""
+    errMessage: ''
   };
 
   componentDidMount() {
@@ -37,40 +37,32 @@ class App extends React.Component {
           />
           <div className="buttons">
             <div
-              onClick={() => this.setState({ season: "spring" })}
+              onClick={() => this.setState({ season: 'spring' })}
               className="ui vertical  button"
               tabIndex="0"
             >
-              <div className="visible content">
-                <i className="umbrella icon" />
-              </div>
+              <i className="umbrella icon" />
             </div>
             <div
-              onClick={() => this.setState({ season: "summer" })}
+              onClick={() => this.setState({ season: 'summer' })}
               className="ui vertical  button"
               tabIndex="0"
             >
-              <div className="visible content">
-                <i className="sun icon" />
-              </div>
+              <i className="sun icon" />
             </div>
             <div
-              onClick={() => this.setState({ season: "fall" })}
+              onClick={() => this.setState({ season: 'fall' })}
               className="ui vertical  button"
               tabIndex="0"
             >
-              <div className="visible content">
-                <i className="leaf icon" />
-              </div>
+              <i className="leaf icon" />
             </div>
             <div
-              onClick={() => this.setState({ season: "winter" })}
+              onClick={() => this.setState({ season: 'winter' })}
               className="ui vertical  button"
               tabIndex="0"
             >
-              <div className="visible content">
-                <i className="snowflake icon" />
-              </div>
+              <i className="snowflake icon" />
             </div>
           </div>
         </div>
@@ -81,4 +73,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector('#root'));
