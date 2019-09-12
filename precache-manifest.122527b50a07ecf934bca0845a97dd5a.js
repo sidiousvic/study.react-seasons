@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f9d7e5eb72a884fae615d5ca5b93130",
+    "revision": "b3a1bc7a6f6a25cfd2e4b013a242fa5b",
     "url": "/seasons-kisetsu/index.html"
   },
   {
