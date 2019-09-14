@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/seasons-kisetsu/static/css/main.cb5a75d3.chunk.css",
+    "main.css": "/seasons-kisetsu/static/css/main.b4d3fc6b.chunk.css",
     "main.js": "/seasons-kisetsu/static/js/main.efcbe806.chunk.js",
     "main.js.map": "/seasons-kisetsu/static/js/main.efcbe806.chunk.js.map",
     "runtime~main.js": "/seasons-kisetsu/static/js/runtime~main.471414c2.js",
@@ -8,9 +8,9 @@
     "static/js/2.5d636447.chunk.js": "/seasons-kisetsu/static/js/2.5d636447.chunk.js",
     "static/js/2.5d636447.chunk.js.map": "/seasons-kisetsu/static/js/2.5d636447.chunk.js.map",
     "index.html": "/seasons-kisetsu/index.html",
-    "precache-manifest.122527b50a07ecf934bca0845a97dd5a.js": "/seasons-kisetsu/precache-manifest.122527b50a07ecf934bca0845a97dd5a.js",
+    "precache-manifest.5bd16eebfc7e7a78961ce227c60e6ccf.js": "/seasons-kisetsu/precache-manifest.5bd16eebfc7e7a78961ce227c60e6ccf.js",
     "service-worker.js": "/seasons-kisetsu/service-worker.js",
-    "static/css/main.cb5a75d3.chunk.css.map": "/seasons-kisetsu/static/css/main.cb5a75d3.chunk.css.map",
+    "static/css/main.b4d3fc6b.chunk.css.map": "/seasons-kisetsu/static/css/main.b4d3fc6b.chunk.css.map",
     "static/media/fall.gif": "/seasons-kisetsu/static/media/fall.3549beaa.gif",
     "static/media/SeasonDisplay.css": "/seasons-kisetsu/static/media/mamemoji.4030c1ea.ttf",
     "static/media/spring.gif": "/seasons-kisetsu/static/media/spring.c40db678.gif",

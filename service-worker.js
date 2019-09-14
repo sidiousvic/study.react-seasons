@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/seasons-kisetsu/precache-manifest.122527b50a07ecf934bca0845a97dd5a.js"
+  "/seasons-kisetsu/precache-manifest.5bd16eebfc7e7a78961ce227c60e6ccf.js"
 );
 
 self.addEventListener('message', (event) => {
