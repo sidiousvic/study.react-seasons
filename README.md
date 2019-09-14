@@ -2,7 +2,7 @@
 
 A season—telling app. 🌸 🌳 🍁 ❄️
 
-@sidiousvic
+by @sidiousvic
 
 ## Pixel art by 1041uuu
 
